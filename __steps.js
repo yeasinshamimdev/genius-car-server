@@ -26,5 +26,18 @@
  * =========================
  * 1. add script in package.json file ("start": "node index.js")
  * ("start-dev": "nodemon index.js");
+ * =========================
+ * 
+ * ===========================
+ * connect mongodb to server
+ * ===========================
+ * 1. create a database in mongodb.
+ * 2. you can use same cluster or add new cluster.
+ * 3. in the same cluster you need to create new database.
+ * 4. in the database you can insert document from local json file
+ * 5. now time to connect your database to the server.
+ * 6. go to database connect and copy the connect code from there.
+ * 7. and then paste the code in server code.
+ * 8. 
  * 
  */
