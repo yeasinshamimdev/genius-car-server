@@ -105,6 +105,9 @@ async function run() {
 };
 run().catch(console.dir);
 
+app.get('hero', (req, res) => {
+    res.send({ name: "shamim" });
+});
 
 app.get('/', (req, res) => {
     res.send('Running genius car service server');
