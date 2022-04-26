@@ -106,7 +106,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('hero', (req, res) => {
-    res.send({ name: "shamim" });
+    res.send('hero shamim here');
 });
 
 app.get('/', (req, res) => {
