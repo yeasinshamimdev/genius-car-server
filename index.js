@@ -105,12 +105,13 @@ async function run() {
 };
 run().catch(console.dir);
 
-app.get('hero', (req, res) => {
-    res.send('hero shamim here');
-});
 
 app.get('/', (req, res) => {
     res.send('Running genius car service server');
+});
+
+app.get("hero", (req, res) => {
+    res.send('hero shamim here');
 });
 
 app.listen(port, () => {
